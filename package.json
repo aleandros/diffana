@@ -1,0 +1,20 @@
+{
+  "name": "diffana",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun run index.ts",
+    "build": "bun build --compile --outfile dist/diffana index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "tree-sitter-wasms": "0.1.11",
+    "web-tree-sitter": "0.24.7"
+  }
+}
